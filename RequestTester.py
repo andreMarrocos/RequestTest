@@ -1,8 +1,9 @@
 import requests
 import json
 
+
 existingPageIds = []
-currentId = 100100
+currentId = 100100 ## inicial ID
 
 while currentId <= 102000:
     try:
